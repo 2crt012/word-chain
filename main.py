@@ -4,6 +4,8 @@ globals()['p1name'] = "Player One"
 globals()['p2name'] = "Player Two"
 
 print("Welcome to word-chain, a game where players take turns saying words that begin with the last letter of the previous word.")
+globals()['p1name'] = input("Player One, please enter your name: ")
+globals()['p2name'] = input("Player Two, please enter your name: ")
 input("Press Enter to start the game...")
 def startgame():
     if not globals()['is_first_word_added']:
